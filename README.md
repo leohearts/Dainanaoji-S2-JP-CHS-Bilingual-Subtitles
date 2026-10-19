@@ -13,9 +13,33 @@
 | `简体/` | 简体中文单语字幕（`.chs.ass`），12 集。 |
 | `繁体/` | 官方繁体原档，原样保留、未作任何修改（LoliHouse 提取版）。 |
 
-文件名沿用 `视频文件名.chs.ass` / `.chs-jp.ass` 的写法，放到视频旁边即可被 mpv / VLC / PotPlayer 自动加载。
-mpv 会因为文件名排序把 `.chs-jp.ass` 排在前面而**默认选中双语轨**；想默认中文单语，
-在 `~/.config/mpv/mpv.conf` 里加一行 `alang=chs`。
+## 安装 / 使用
+
+1. **下载**：
+
+   ```sh
+   git clone https://github.com/leohearts/Dainanaoji-S2-JP-CHS-Bilingual-Subtitles.git
+   ```
+
+   或者在仓库页面点 `Code` → `Download ZIP`。
+
+2. **放到视频旁边**：字幕文件名要和视频同名（扩展名前多一段 `.chs-jp` / `.chs`）：
+
+   ```
+   Dainanaoji S2 - 13 xxx.mkv
+   Dainanaoji S2 - 13 xxx.chs-jp.ass   ← 中日双语
+   Dainanaoji S2 - 13 xxx.chs.ass      ← 简体单语
+   ```
+
+   mpv / VLC / PotPlayer 都会自动加载同名的外挂字幕，不用手动挂。
+
+3. **选字幕轨**：mpv 会因为文件名排序把 `.chs-jp.ass` 排在前面而**默认选中双语轨**；
+   想默认中文单语，在 `~/.config/mpv/mpv.conf` 里加一行 `alang=chs`。播放中按 `j` 也能切换。
+
+4. **装字体**（可选）：不装也不会报错，libass 会自动回退到别的字体，只是字型不同。
+   字体和下载链接见下面的[字体](#字体)一节。
+
+字幕适配的是**日版 BD**（H-Enc BDRip），换别的片源可能需要自己调轴，详见[时间轴](#时间轴)。
 
 ## 中日双语字幕
 
@@ -138,14 +162,48 @@ ep21 `17:09`「无暇顾及于防守」（官方行文）。
 适配 **日版 BD**（H-Enc BDRip，1080p HEVC + FLAC，MKV 内无字幕轨）。
 用画面上的集标题卡独立核对过，字幕与画面误差在 0.5 秒以内。
 
-字体：
+## 字体
 
-- **中文**样式用 `方正准圆_GBK`（商业字体，本仓库不附带）。
-- **日文**样式用 **Zen Maru Gothic**（[Google Fonts](https://fonts.google.com/specimen/Zen+Maru+Gothic)，SIL Open Font License 1.1，作者 Yoshimichi Ohira / The Zen Maru Gothic Project Authors）。
-  之所以不用 S1 那套（芝士动物朋友）的 `EPSON 太丸ゴシック体Ｂ`：EPSON 的授权明确禁止这样用
-  （「他のメディアへの一切の転載を行わない」「対象製品をご使用になる目的においてのみ」「商行為に使用しない」
-  「日本国内のみで使用する」），所以换成同类的开源圆体。
-- 本仓库同样不附带字体。没装的话 libass 会自动回退到别的字体，不影响观看，只是字型不同。
+| 用在哪 | 字体 | 授权 |
+| --- | --- | --- |
+| 中文（`Default` 样式） | `方正准圆_GBK` | 商业字体，本仓库不附带 |
+| 日文（`JP` 样式） | `Zen Maru Gothic` | SIL Open Font License 1.1，免费 |
+
+**本仓库不附带任何字体**，需要自己装。不装也不会报错，libass 会自动回退到别的字体，只是字型不同。
+
+### 日文：Zen Maru Gothic
+
+- Google Fonts 页面：<https://fonts.google.com/specimen/Zen+Maru+Gothic>
+- 直接下载：
+  [ZenMaruGothic-Regular.ttf](https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/ZenMaruGothic-Regular.ttf) ·
+  [ZenMaruGothic-Bold.ttf](https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/ZenMaruGothic-Bold.ttf) ·
+  [OFL 授权原文](https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/OFL.txt)
+- 作者：Yoshimichi Ohira / The Zen Maru Gothic Project Authors
+
+S1 那套（芝士动物朋友）的日文用的是 `EPSON 太丸ゴシック体Ｂ`，但 EPSON 的字体授权明确禁止这样用
+（「他のメディアへの一切の転載を行わない」「対象製品をご使用になる目的においてのみ」「商行為に使用しない」
+「日本国内のみで使用する」），所以换成同类的开源圆体。挑 Zen Maru Gothic 是实测出来的：
+把同一帧分别用它、M PLUS Rounded 1c 和 EPSON 原版渲染出来并排看，它的粗细和圆润度最接近。
+
+### 中文：方正准圆_GBK
+
+商业字体，本仓库不附带。方正字库官网：<https://www.foundertype.com/>
+
+手上没有的话可以换成免费开源圆体，比如 **源柔黑**（Gen Jyuu Gothic / 源柔ゴシック，
+把 源ノ角ゴシック（Source Han Sans）的直角磨圆而来，SIL OFL 1.1，
+版权归 Adobe 与 M+ FONTS PROJECT）：
+
+- 官方页面：<http://jikasei.me/font/genjyuu/>
+- 下载：[.7z（47 MB）](https://ftp.iij.ad.jp/pub/osdn.jp/users/8/8636/genjyuugothic-20150607.7z) ·
+  [.zip（103 MB）](https://ftp.iij.ad.jp/pub/osdn.jp/users/8/8642/genjyuugothic-20150607.zip)
+  （完整 CJK 字体，体积就是这么大。解压后一般只要 `GenJyuuGothic-Regular.ttf` 和 `GenJyuuGothic-Bold.ttf`）
+- 装好后把字幕里所有 `方正准圆_GBK` 换成 `Gen Jyuu Gothic` 即可
+  （Linux 上 `fc-list | grep -i jyuu` 可以看到实际字体名）
+
+### 怎么装字体
+
+- **Linux**：字体文件放进 `~/.local/share/fonts/`，然后跑一次 `fc-cache -f`
+- **Windows / macOS**：双击字体文件 → 安装
 
 ## 校对方法
 
