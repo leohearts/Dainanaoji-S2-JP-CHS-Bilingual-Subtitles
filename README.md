@@ -19,7 +19,7 @@ mpv 会因为文件名排序把 `.chs-jp.ass` 排在前面而**默认选中双�
 
 ## 中日双语字幕
 
-中文用原样式，日文用新增的 `JP` 样式（方正准圆_GBK、48 号，白色，与中文同色），`\an8` 之类的定位跟随原条目。
+中文用原样式，日文用新增的 `JP` 样式（**Zen Maru Gothic**、48 号、加粗、白色，与中文同色），`\an8` 之类的定位跟随原条目。
 
 - **日文源**：Netflix 官方日文 CC（`S02E13`–`S02E24`），另有 Amazon SDH 和 TX 电视台版用来交叉核对。
 - **时间轴**：日文 CC 比 BD 整体晚 **16.0 秒**（逐集实测，中位残差 0.08 秒，全季无漂移），平移后与中文字幕配对。
@@ -35,6 +35,7 @@ mpv 会因为文件名排序把 `.chs-jp.ass` 排在前面而**默认选中双�
 - **时间轴与提取**：LoliHouse（`LoliHouse提取字幕[ASS]`）；片源为 H-Enc 的 BDRip。
 - **整理与繁体原档**：Anime 字幕论坛（bbs.acgrip.com）「转生成第七王子，随心所欲的魔法学习之路 爱奇艺繁中、Netflex简繁字幕」整合帖。
 - **简体转换、日文校对、双语合成**：本仓库。
+- **日文字体**：[Zen Maru Gothic](https://fonts.google.com/specimen/Zen+Maru+Gothic)（SIL Open Font License 1.1，作者 Yoshimichi Ohira / The Zen Maru Gothic Project Authors）。
 
 字幕著作权归原权利人所有。本仓库只做简体转换、文字校对与双语合成，供已持有片源的人个人学习交流使用，
 请勿用于任何商业用途。如权利人提出要求，会立即删除。
@@ -137,8 +138,14 @@ ep21 `17:09`「无暇顾及于防守」（官方行文）。
 适配 **日版 BD**（H-Enc BDRip，1080p HEVC + FLAC，MKV 内无字幕轨）。
 用画面上的集标题卡独立核对过，字幕与画面误差在 0.5 秒以内。
 
-字体：样式用的是 `方正准圆_GBK`（商业字体，本仓库不附带）。没装的话 libass 会自动回退到别的字体，
-不影响观看，只是字型不同。
+字体：
+
+- **中文**样式用 `方正准圆_GBK`（商业字体，本仓库不附带）。
+- **日文**样式用 **Zen Maru Gothic**（[Google Fonts](https://fonts.google.com/specimen/Zen+Maru+Gothic)，SIL Open Font License 1.1，作者 Yoshimichi Ohira / The Zen Maru Gothic Project Authors）。
+  之所以不用 S1 那套（芝士动物朋友）的 `EPSON 太丸ゴシック体Ｂ`：EPSON 的授权明确禁止这样用
+  （「他のメディアへの一切の転載を行わない」「対象製品をご使用になる目的においてのみ」「商行為に使用しない」
+  「日本国内のみで使用する」），所以换成同类的开源圆体。
+- 本仓库同样不附带字体。没装的话 libass 会自动回退到别的字体，不影响观看，只是字型不同。
 
 ## 校对方法
 
