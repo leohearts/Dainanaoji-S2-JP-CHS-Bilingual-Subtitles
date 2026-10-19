@@ -40,25 +40,25 @@ Dialogue: 0,00:00:38.22,00:00:39.43,Default,,0,0,0,,你闹够了没\N{\rJP}（�
 Dialogue: 0,00:00:42.60,00:00:43.81,Default,,0,0,0,,听说巴比伦\N{\rJP}（タリア）バビロンは 神父の姿を
 Dialogue: 0,00:00:43.81,00:00:46.48,Default,,0,0,0,,是被神父模样的家伙袭击的\N{\rJP}してたヤツに襲われたって…
 Dialogue: 0,00:00:47.40,00:00:49.61,Default,,0,0,0,,我无法信任教会的人\N{\rJP}教会の人間は信用できない！
-Dialogue: 0,00:01:16.26,00:01:17.80,Default,,0,0,0,,CALLING CALLING CALLING CALLING
-Dialogue: 0,00:01:23.22,00:01:28.73,Default,,0,0,0,,晴天转变为雨天 随雷鸣迎来终焉
-Dialogue: 0,00:01:28.73,00:01:34.57,Default,,0,0,0,,盼望奇迹能发生 从天际降临于此
-Dialogue: 0,00:01:34.57,00:01:35.78,Default,,0,0,0,,(COMING NOW)
-Dialogue: 0,00:01:35.78,00:01:37.11,Default,,0,0,0,,正蠢蠢欲动着
-Dialogue: 0,00:01:37.11,00:01:40.20,Default,,0,0,0,,伴随阵阵疼痛 渴望能够靠近
-Dialogue: 0,00:01:40.20,00:01:41.41,Default,,0,0,0,,(COMING NOW)
-Dialogue: 0,00:01:41.41,00:01:42.66,Default,,0,0,0,,令人坐立难安
-Dialogue: 0,00:01:42.66,00:01:45.58,Default,,0,0,0,,却又坚韧无比 就是这点迷人
-Dialogue: 0,00:01:45.58,00:01:48.37,Default,,0,0,0,,无论是善恶还是正反
-Dialogue: 0,00:01:48.37,00:01:51.04,Default,,0,0,0,,都将成为未来的养分
-Dialogue: 0,00:01:51.04,00:01:56.09,Default,,0,0,0,,哈雷路亚 世界正等着你
-Dialogue: 0,00:01:56.09,00:02:02.18,Default,,0,0,0,,即使一言不发也依旧是压倒性的存在
-Dialogue: 0,00:02:02.93,00:02:08.02,Default,,0,0,0,,怀抱曾拼命追求的那不会生锈的愿望
-Dialogue: 0,00:02:08.02,00:02:12.86,Default,,0,0,0,,面对眼前的光晕又该如何按捺住冲动
-Dialogue: 0,00:02:12.86,00:02:18.95,Default,,0,0,0,,紧抱着那不曾改变的纯粹不让其消逝
-Dialogue: 0,00:02:18.95,00:02:25.12,Default,,0,0,0,,以苍天的旋律在此刻掠夺绝望与黑暗
-Dialogue: 0,00:02:28.71,00:02:30.29,Default,,0,0,0,,CALLING CALLING CALLING CALLING
-Dialogue: 0,00:02:34.21,00:02:36.34,Default,,0,0,0,,COMING COMING COMING AT YA
+Dialogue: 0,00:01:16.26,00:01:17.80,Default,,0,0,0,,CALLING CALLING CALLING CALLING\N{\rJP}CALLING CALLING CALLING CALLING
+Dialogue: 0,00:01:23.22,00:01:28.73,Default,,0,0,0,,晴天转变为雨天 随雷鸣迎来终焉\N{\rJP}晴れのち雨のちイカヅチのち終焉
+Dialogue: 0,00:01:28.73,00:01:34.57,Default,,0,0,0,,盼望奇迹能发生 从天际降临于此\N{\rJP}願わくば奇跡 舞い降りて降臨して
+Dialogue: 0,00:01:34.57,00:01:35.78,Default,,0,0,0,,(COMING NOW)\N{\rJP}(COMING NOW)
+Dialogue: 0,00:01:35.78,00:01:37.11,Default,,0,0,0,,正蠢蠢欲动着\N{\rJP}うずうずうず 疼きだすの
+Dialogue: 0,00:01:37.11,00:01:40.20,Default,,0,0,0,,伴随阵阵疼痛 渴望能够靠近\N{\rJP}もっと近づいていたいイタイ
+Dialogue: 0,00:01:40.20,00:01:41.41,Default,,0,0,0,,(COMING NOW)\N{\rJP}(COMING NOW)
+Dialogue: 0,00:01:41.41,00:01:42.66,Default,,0,0,0,,令人坐立难安\N{\rJP}そわそわそわ
+Dialogue: 0,00:01:42.66,00:01:45.58,Default,,0,0,0,,却又坚韧无比 就是这点迷人\N{\rJP}でも強か そこがいいね
+Dialogue: 0,00:01:45.58,00:01:48.37,Default,,0,0,0,,无论是善恶还是正反\N{\rJP}善も悪も裏も表も
+Dialogue: 0,00:01:48.37,00:01:51.04,Default,,0,0,0,,都将成为未来的养分\N{\rJP}まだ見ぬ明日の糧となれ
+Dialogue: 0,00:01:51.04,00:01:56.09,Default,,0,0,0,,哈雷路亚 世界正等着你\N{\rJP}ハレルヤ世界 君を待ってた
+Dialogue: 0,00:01:56.09,00:02:02.18,Default,,0,0,0,,即使一言不发也依旧是压倒性的存在\N{\rJP}ねぇ圧倒的な 存在で 何も言わなくても
+Dialogue: 0,00:02:02.93,00:02:08.02,Default,,0,0,0,,怀抱曾拼命追求的那不会生锈的愿望\N{\rJP}我武者羅求めた 錆びない願いもあって
+Dialogue: 0,00:02:08.02,00:02:12.86,Default,,0,0,0,,面对眼前的光晕又该如何按捺住冲动\N{\rJP}ジッとしてられない 光のハレーション
+Dialogue: 0,00:02:12.86,00:02:18.95,Default,,0,0,0,,紧抱着那不曾改变的纯粹不让其消逝\N{\rJP}純粋…あぁこぼさず抱きしめながら
+Dialogue: 0,00:02:18.95,00:02:25.12,Default,,0,0,0,,以苍天的旋律在此刻掠夺绝望与黑暗\N{\rJP}奪って 絶望・闇 蒼天のグルーブで今
+Dialogue: 0,00:02:28.71,00:02:30.29,Default,,0,0,0,,CALLING CALLING CALLING CALLING\N{\rJP}CALLING CALLING CALLING CALLING
+Dialogue: 0,00:02:34.21,00:02:36.34,Default,,0,0,0,,COMING COMING COMING AT YA\N{\rJP}COMING COMING COMING AT YA
 Dialogue: 0,00:02:39.55,00:02:43.60,Default,,0,0,0,,(第十八话 伊夏的想法)\N{\rJP}（イーシャ） アッ…　アアッ…
 Dialogue: 0,00:02:55.90,00:02:57.86,Default,,0,0,0,,这是何等的亵渎\N{\rJP}（ジリエル）なんという冒涜(ぼうとく)！
 Dialogue: 0,00:03:07.33,00:03:09.37,Default,,0,0,0,,对不起\N{\rJP}（イーシャ）ごめんなさい…
